@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import router from './plugins/router'
-import App from './app.vue'
+import App from './App.vue'
 import fontAwesomeIcon from './plugins/icons'
 
 import './assets/styles/style.scss'
