@@ -2,9 +2,17 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    colors: {
+      'green': '#17AD49',
+      'light-green': '#E6FFEE',
+      'charcoal': '#333333',
+      'white': '#FFFFFF',
+      'dark-gray': '#879A94',
+      'gray': '#C3CDC9'
+    },
     extend: {},
   },
   plugins: [],

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './mixins/colors.scss';
+@import './mixins/display.scss';
+@import './mixins/spacing.scss';
+@import './base.scss';
+@import './button.scss';
+@import './groupButton.scss';
+@import './tableCard.scss';
+@import './input.scss';
+@import './Dropdown.scss'

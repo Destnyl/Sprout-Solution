@@ -1,5 +1,12 @@
 import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import router from './plugins/router'
+import App from './app.vue'
+import fontAwesomeIcon from './plugins/icons'
 
-createApp(App).mount('#app')
+import './assets/styles/style.scss'
+
+
+createApp(App)
+    .use(router)
+    .component('fa', fontAwesomeIcon)
+    .mount('#app')

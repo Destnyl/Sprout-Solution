@@ -1,0 +1,42 @@
+.btn-group {
+  display: flex;
+  li {
+    display: flex;
+    flex-shrink: 0;
+
+        input.btn-group-item {
+        opacity: 0;
+        margin-left: -14px;
+
+            &:checked + label {
+                background-color: $green;
+                color: $white;
+            }
+
+        }
+
+        label {
+            border-style: solid;
+            border-width: 1;
+            border-color: $green;
+            background-color: $white;
+            padding: 5px 12px;
+            color: $green;
+        }
+    }
+}
+
+li:first-child label {
+    border: 1px solid green;
+    border-radius: 5px 0 0 5px;
+}
+
+li:last-child label {
+    border: 1px solid green;
+    border-radius:0 5px 5px 0;
+}
+
+input[type="radio"]:focus + label
+{
+    border: 1px solid $green;
+}

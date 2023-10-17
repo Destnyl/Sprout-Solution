@@ -1,0 +1,12 @@
+@mixin flex( $direction, $gap ) {
+    display: flex;
+    flex-direction: $direction;
+
+    @if($direction == 'row') {
+      column-gap: $gap;
+    }
+
+    @if($direction == 'column') {
+      row-gap: $gap;
+    }
+  }
